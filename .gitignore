@@ -1,0 +1,57 @@
+# Ignore Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Django files
+*.sqlite3
+*.db
+
+# Ignore Tailwind CSS files
+node_modules/
+public/css/
+public/js/
+
+# Ignore virtual environment files
+venv/
+env/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore migrations
+migrations/
+db.sqlite3
+
+puddle/__pycache__/
+item/__pycache__/
+dashboard/__pycache__/
+core/__pycache__/
+conversation/__pycache__/
+theme/__pycache__/
+
+item/migrations/
+dashboard/migrations/
+core/migrations/
+conversation/migrations/
+
+
+# Ignore static files
+static/
+
+# Ignore media files
+media/
+
+
+
+# Ignore pip cache
+pip-cache/
